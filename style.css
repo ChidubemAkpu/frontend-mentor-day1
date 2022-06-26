@@ -24,6 +24,7 @@ main{
     border-top-left-radius: 5px;
     border-bottom-right-radius: 5px;
     opacity:0.6;
+    border:2px solid red;
 }
 .main-div{
     display:flex;
