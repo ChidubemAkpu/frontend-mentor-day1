@@ -14,7 +14,7 @@ main{
     display:flex;
     align-items:center;
     justify-content: center;
-    padding:5px 30px;
+    padding:5px 15px;
 }
 .image-section{
     background-image:url("images/image-header-desktop.png") ;
