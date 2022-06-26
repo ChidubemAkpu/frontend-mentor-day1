@@ -8,7 +8,7 @@ body{
 }
 
 main{
-    width:70vw;
+    width:90vw;
     height:100%;
     margin:40px auto;
     display:flex;
@@ -33,7 +33,7 @@ main{
     align-items:center;
     background:hsl(244, 38%, 16%);
     border-radius:10px;
-    padding:5px;
+
     
 }
 .info-section{
@@ -84,7 +84,7 @@ span{
         background-size: 100% 100%;
         background-position: top;
         width:100%;
-        height:40vh;
+        height:35vh;
         border-top-right-radius: 5px;
         border-top-left-radius: 5px;
         opacity:0.4;
