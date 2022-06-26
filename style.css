@@ -4,6 +4,7 @@
 }
 body{
     font-size:15px;
+    background:hsl(233,47%,7%);
 }
 
 main{
@@ -14,7 +15,17 @@ main{
     align-items:center;
     justify-content: center;
     padding:5px 30px;
-    background:hsl(233,47%,7%)
+}
+.image-section{
+    background-image:url("images/image-header-desktop.png") ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    width:100%;
+    height:60vh;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    opacity:0.4;
 }
 .main-div{
     display:flex;
@@ -28,7 +39,8 @@ main{
 }
 .info-section{
     flex-grow: 1;
-    padding:20px;
+    padding:20px;text-align:center;
+
     
 }
 h1, .stat{
@@ -56,18 +68,7 @@ h1, .stat{
 span{
     color:hsl(277,64%,61%)
 }
-.image-section{
-    background-image:url("images/image-header-desktop.jpg") ;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    width:100%;
-    height:60vh;
-    z-index:1;
-    color:hsl(277,64%,61%);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
+
 @media screen and (max-width:900px){
     .main-div{
         display:flex;
@@ -79,16 +80,15 @@ span{
         
     }
     .image-section{
-        background-image:url("images/image-header-mobile.jpg");
+        background-image:url("images/image-header-mobile.png");
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: 100% 100%;
         background-position: top;
         width:100%;
         height:50vh;
-        z-index:1;
-        color:hsl(277,64%,61%);
         border-top-right-radius: 5px;
         border-top-left-radius: 5px;
+        opacity:0.4;
     }
     .other-info{
         display:flex;
