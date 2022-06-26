@@ -20,7 +20,7 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
-    height:30vh;
+    height:60vh;
     border-top-left-radius: 5px;
     border-bottom-right-radius: 5px;
     opacity:0.6;
@@ -84,7 +84,7 @@ span{
         background-repeat: no-repeat;
         background-size: cover;
         width:100%;
-        height:60vh;
+        height:vh;
         border-top-right-radius: 5px;
         border-top-left-radius: 5px;
         opacity:0.6;
