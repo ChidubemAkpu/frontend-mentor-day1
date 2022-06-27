@@ -11,7 +11,7 @@ main{
     margin:20px auto;
     background:hsl(277, 64%, 61%);
     display:grid;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr 1.5fr;
     border-radius:7px;
 
 }
