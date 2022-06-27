@@ -62,7 +62,7 @@ p,.prices{
     main{
         display:grid;
         grid-template-columns:repeat(2, 1fr);
-        height:50vh;
+        height:70vh;
         width:70vw;
     }
     .prices{
@@ -76,7 +76,7 @@ p,.prices{
         border-radius:7px 0 0 7px;
     }
     .picture-section{
-        height: 50vh;
+        height: 70vh;
         border-radius:0 7px 7px 0;
         order: 2;
     }
