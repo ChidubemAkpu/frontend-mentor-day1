@@ -2,6 +2,9 @@
     box-sizing:border-box;
     margin:0; padding:0;
 }
+body{
+    background:hsl(233, 47%, 7%);
+}
 main{
     width:80vw;
     height:90vh;
@@ -28,7 +31,7 @@ main{
     
     text-align:center;
     padding:10px 30px;
-    background:hsl(233, 47%, 7%);
+    background: hsl(244, 38%, 16%);
     font-family:"Lexend Deca", sans-serif;
     border-radius:0 0 7px 7px;
 }
